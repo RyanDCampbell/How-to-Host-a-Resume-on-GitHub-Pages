@@ -52,6 +52,7 @@ During my Human - Computer Interaction group project, we were tasked with develo
 
 
 **Staples Canada Inc.** 									          	      _**Nov. 2011 – Present**_
+
 **Technology Services Specialist**							_Aug. 2018 – Present_
 
 _Staples Canada Inc. • Selkirk, MB._
