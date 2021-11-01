@@ -23,7 +23,7 @@ Requirements for this tutorial is a working knowledge of Markdown. Additionally,
 
   2. Sign into your GitHub account and select the green (create a) *NEW* (repository) button as shown below.
 
-  ![Create a new repository](images/CreateRepo.png)
+  ![Create a new repository](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/CreateRepo.PNG)
 
   3. **WARNING:** When naming your new repository, make sure it is named *username*.github.io, where *username* is the GitHub account username you selected in step 2.
 
@@ -71,7 +71,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
   5. When the installation has completed, ensure that the checkbox is selected as in the following image.  
 
-  ![Successful Ruby Install](images/RubySetup.png)
+  ![Successful Ruby Install](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/RubySetup.PNG)
 
   6. Select finish.
 
@@ -83,7 +83,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
   If Ruby was successfully installed, you will get the following feedback from command prompt:
 
-  ![Verify Ruby Installed](images/VerifyRuby.png)
+  ![Verify Ruby Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/VerifyRuby.PNG)
 
 
 
@@ -101,7 +101,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
 If Jekyll was successfully installed, you will get the following output to command prompt:
 
-  ![Jekyll Installed](images/JekyllInstalled.png)
+  ![Jekyll Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/JekyllInstalled.PNG)
 
 
 
