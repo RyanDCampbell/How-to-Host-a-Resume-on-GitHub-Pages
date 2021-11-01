@@ -21,11 +21,11 @@ Requirements for this tutorial is a working knowledge of Markdown. Additionally,
 
   2. Choose a GitHub username that reflects your preferred name. This is because which ever user name you choose will be apart of your site address.
 
-  2. Sign into your GitHub account and select the green (create a) *NEW* (repository) button as shown below.
+  3. Sign into your GitHub account and select the green (create a) *NEW* (repository) button as shown below.
 
   ![Create a new repository](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/CreateRepo.PNG)
 
-  3. **WARNING:** When naming your new repository, make sure it is named *username*.github.io, where *username* is the GitHub account username you selected in step 2.
+  **WARNING:** When naming your new repository, make sure it is named *username*.github.io, where *username* is the GitHub account username you selected in step 2.
 
 ###  Installing Software
 
