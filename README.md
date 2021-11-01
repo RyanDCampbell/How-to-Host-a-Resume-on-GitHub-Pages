@@ -41,9 +41,12 @@ There are a few programs that you will need to have installed before we can host
 
   2. Run the Atom installer, and complete the installation with the default installation settings.
 
+  3. Open Atom when it has finished installing.
+
+  4. **TIP** Enable the "Markdown Preview" feature as shown below. This feature allows you to see a live preview of how the Markdown will look once it has been processed. I found this feature way harder to find then it should be.
+
 
   ![image](https://gyazo.com/e8d92b3ba3023758769e873ef1a67f39)
-
 
 
 
