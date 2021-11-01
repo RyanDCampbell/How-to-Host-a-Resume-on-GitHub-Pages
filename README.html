@@ -37,7 +37,7 @@
 <li><p>Choose a GitHub username that reflects your preferred name. This is because which ever user name you choose will be apart of your site address.</p>
 </li>
 <li><p>Sign into your GitHub account and select the green (create a) <em>NEW</em> (repository) button as shown below.</p>
-<p><img src="images/CreateRepo.png" alt="Create a new repository"></p>
+<p><img src="https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/CreateRepo.PNG" alt="Create a new repository"></p>
 </li>
 <li><p><strong>WARNING:</strong> When naming your new repository, make sure it is named <em>username</em>.github.io, where <em>username</em> is the GitHub account username you selected in step 2.</p>
 </li>
@@ -52,6 +52,7 @@
 <li><p>Run the Atom installer, and complete the installation with the default installation settings.</p>
 </li>
 </ol>
+<p>  <img src="https://gyazo.com/e8d92b3ba3023758769e873ef1a67f39" alt="image"></p>
 <h4 id="2-installing-github-desktop">2) Installing GitHub Desktop</h4>
 <p>GitHub Desktop is the software that we will be using to update our static site with the changes that have been made to the Markdown resume.  GitHub gives us some very useful tools as described in <em>Modern Technical Writing</em>. Two advantages of using GitHub is version control and community contributions.</p>
 <p> Version control gives us a way of tracking the changes that have been made to the project, and a way of restoring our project to a previous version.</p>
@@ -75,7 +76,7 @@
 <li><p>Proceed through the installation process, using the default installation options.</p>
 </li>
 <li><p>When the installation has completed, ensure that the checkbox is selected as in the following image.  </p>
-<p><img src="images/RubySetup.png" alt="Successful Ruby Install"></p>
+<p><img src="https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/RubySetup.PNG" alt="Successful Ruby Install"></p>
 </li>
 <li><p>Select finish.</p>
 </li>
@@ -83,7 +84,7 @@
 </li>
 </ol>
 <pre><code>ruby -v</code></pre><p>  If Ruby was successfully installed, you will get the following feedback from command prompt:</p>
-<p>  <img src="images/VerifyRuby.png" alt="Verify Ruby Installed"></p>
+<p>  <img src="https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/VerifyRuby.PNG" alt="Verify Ruby Installed"></p>
 <h4 id="4-installing-jekyll">4) Installing Jekyll</h4>
 <ol>
 <li><p>Open a new command prompt window.</p>
@@ -91,9 +92,57 @@
 <li><p>Enter and run the following command:</p>
 </li>
 </ol>
-<pre><code>gem install jekyll bundler  </code></pre><p>If Jekyll was successfully installed, you will get the following output to command prompt:</p>
-<p>  <img src="images/JekyllInstalled.png" alt="Jekyll Installed"></p>
-<h4 id="2-more-resources-">2) More Resources:</h4>
+<pre><code>gem install jekyll bundler  
+
+
+If Jekyll was successfully installed, you will get the following output to command prompt:
+
+  ![Jekyll Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/JekyllInstalled.PNG)</code></pre><h3 id="preparing-the-repository">Preparing the Repository</h3>
+<ol>
+<li><p>Open a new command prompt window.</p>
+</li>
+<li><p>Navigate to the following directory, where USERNAME is the name of your Windows profile.</p>
+</li>
+</ol>
+<pre><code>C:\Users\USERNAME\Documents\GitHub</code></pre><ol start="3">
+<li>Create a new Jekyll site by entering the following command, where username.github.io appears exactly as in your GitHub account.  <strong>WARNING</strong> If the Jekyll site is not created with the exact name as on GitHub, it will not work.</li>
+</ol>
+<pre><code>jekyll new username.github.io</code></pre><ol start="4">
+<li><p>Open GitHub desktop.</p>
+</li>
+<li><p>Clone your GitHub repository by clicking on File -&gt; Clone Repository.</p>
+</li>
+<li><p>Select the repository that was created earlier from the list.</p>
+</li>
+<li><p>Select clone to setup the repository locally on your computer.</p>
+</li>
+</ol>
+<h3 id="building-and-uploading-the-site">Building and Uploading the Site</h3>
+<ol>
+<li>Copy your Markdown formatted resume to the following location.</li>
+</ol>
+<pre><code>  C:\Users\USERNAME\Documents\GitHub\username.github.io</code></pre><ol start="2">
+<li><p>Rename your Markdown resume to "index" (ensure to keep the Markdown extension).</p>
+</li>
+<li><p>Open a new command prompt window and change the directory to the GitHub project's directory listed in step 1.</p>
+</li>
+<li><p>Build the static site with Jekyll by running the following command.</p>
+</li>
+</ol>
+<pre><code>bundle exec</code></pre><ol start="5">
+<li><p>Open GitHub Desktop, and commit the changes to GitHub as shown below.  A summary of changes is required to submit the changes.</p>
+<p><img src="images/Commit.png" alt="GitHub Desktop Commit"></p>
+</li>
+</ol>
+<h3 id="congrats-you-just-published-your-markdown-resume-online">Congrats! You Just Published Your Markdown Resume Online</h3>
+<p>Once the above steps are completed, your site will be ready for viewing.</p>
+<ol>
+<li><p>Open any web browser of your choosing.</p>
+</li>
+<li><p>Navigate to username.github.io to view your site.</p>
+</li>
+</ol>
+<h2 id="more-resources-">More Resources:</h2>
 <ul>
 <li><a href="https://pages.github.com/">GitHub Pages</a> - A link to GitHub Pages has the steps needed to create an account</li>
 <li><a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide</a> -  A very good guide to get you started in Markdown, or simply brush-up your skills.</li>
@@ -120,17 +169,25 @@ of conduct, and the process for submitting pull requests to us.</p>
 <li><strong>Joshua Moreira</strong> - <em>Peer reviewed this guide</em> -</li>
 <li><strong>Ikram Khan Shipon</strong> - <em>Peer reviewed this guide</em> -</li>
 <li><strong>Anton Sikorsky</strong> - <em>Peer reviewed this guide</em> -</li>
-<li><strong>Billie Thompson</strong> - <em>Provided README Template</em> -
-  <a href="https://github.com/PurpleBooth">PurpleBooth</a></li>
+<li><p><strong>Billie Thompson</strong> - <em>Provided README Template</em> -
+  <a href="https://github.com/PurpleBooth">PurpleBooth</a></p>
+</li>
+<li><p><a href="https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS">Modern Technical Writing</a> - A link to Andrew Etter's book <em>Modern Technical Writing</em>.</p>
+</li>
 </ul>
 <p>See also the list of
 <a href="https://github.com/PurpleBooth/a-good-readme-template/contributors">contributors</a>
 who participated in the README template project.</p>
 <h2 id="faqs">FAQs</h2>
-<p>We use <a href="http://semver.org/">Semantic Versioning</a> for versioning. For the versions
-available, see the <a href="https://github.com/PurpleBooth/a-good-readme-template/tags">tags on this
-repository</a>.</p>
-<h2 id="license">License</h2>
+<p>Why is Markdown better than a word processor?</p>
+<ul>
+<li>As suggested in Andrew Etter's book, Markdown is a very simple and light weight. Markdown files can be read on any platform by any basic text editor. The Markdown file format is openly available for anyone to use and is widely supported. A raw Markdown file is also very easy to read, as the formatting is clean and minimal.</li>
+</ul>
+<p>Why is my resume not showing up?</p>
+<ul>
+<li>Ensure to process your Markdown file will Jekyll before committing your changes to GitHub.  This can be done by opening a command prompt window and navigating to the root of your GitHub project and running the following command.</li>
+</ul>
+<pre><code>bundle exec</code></pre><h2 id="license">License</h2>
 <p>This project is licensed under the <a href="LICENSE.md">CC0 1.0 Universal</a>
 Creative Commons License - see the <a href="LICENSE.md">LICENSE.md</a> file for
 details</p>

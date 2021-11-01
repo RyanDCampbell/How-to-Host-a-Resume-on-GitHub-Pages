@@ -42,6 +42,10 @@ There are a few programs that you will need to have installed before we can host
   2. Run the Atom installer, and complete the installation with the default installation settings.
 
 
+  ![image](https://gyazo.com/e8d92b3ba3023758769e873ef1a67f39)
+
+
+
 
 #### 2) Installing GitHub Desktop
 
@@ -98,17 +102,78 @@ GitHub Desktop is the software that we will be using to update our static site w
     gem install jekyll bundler  
 
 
+    If Jekyll was successfully installed, you will get the following output to command prompt:
 
-If Jekyll was successfully installed, you will get the following output to command prompt:
-
-  ![Jekyll Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/JekyllInstalled.PNG)
-
+      ![Jekyll Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/JekyllInstalled.PNG)
 
 
 
-####  2) More Resources:
+
+### Preparing the Repository
+
+  1. Open a new command prompt window.
+
+  2. Navigate to the following directory, where USERNAME is the name of your Windows profile.
 
 
+    C:\Users\USERNAME\Documents\GitHub
+
+
+  3. Create a new Jekyll site by entering the following command, where username.github.io appears exactly as in your GitHub account.  **WARNING** If the Jekyll site is not created with the exact name as on GitHub, it will not work.
+
+
+    jekyll new username.github.io
+
+
+  4. Open GitHub desktop.
+
+  5. Clone your GitHub repository by clicking on File -> Clone Repository.
+
+  6. Select the repository that was created earlier from the list.
+
+  7. Select clone to setup the repository locally on your computer.
+
+
+
+### Building and Uploading the Site
+
+  1. Copy your Markdown formatted resume to the following location.
+
+
+      C:\Users\USERNAME\Documents\GitHub\username.github.io
+
+  2. Rename your Markdown resume to "index" (ensure to keep the Markdown extension).
+
+  3. Open a new command prompt window and change the directory to the GitHub project's directory listed in step 1.
+
+  4. Build the static site with Jekyll by running the following command.
+
+
+    bundle exec
+
+
+  5. Open GitHub Desktop, and commit the changes to GitHub as shown below.  A summary of changes is required to submit the changes.
+
+  ![GitHub Desktop Commit](images/Commit.png)
+
+
+
+
+### Congrats! You Just Published Your Markdown Resume Online
+
+Once the above steps are completed, your site will be ready for viewing.
+
+1. Open any web browser of your choosing.
+
+2. Navigate to username.github.io to view your site.
+
+
+
+
+
+
+
+## More Resources:
 
 - [GitHub Pages](https://pages.github.com/) - A link to GitHub Pages has the steps needed to create an account
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/) -  A very good guide to get you started in Markdown, or simply brush-up your skills.
@@ -116,9 +181,8 @@ If Jekyll was successfully installed, you will get the following output to comma
 - [Jekyll Quickstart Guide] (https://jekyllrb.com/docs/) - A link to Jekyll's guide on how to get their software up and running.
 
 
-
-
 ## Built With
+
   - [Atom](https://atom.io/) - Used as a Markdown editor.
   - [GitHub Pages](https://pages.github.com/) - Used to host the static site.
   - [Jekyll](https://jekyllrb.com/) - Used for generating a static site from a Markdown file.
@@ -134,6 +198,7 @@ of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors & Acknowledgments
+
 - **Ryan Campbell** - *Wrote the guide on how to host a resume and README on GitHub Pages* -
 - **Kevin Kim** - *Provided support on getting Jekyll and GitHub Pages setup. Also peer reviewed this guide* -
 - **Joshua Moreira** - *Peer reviewed this guide* -
@@ -142,15 +207,22 @@ of conduct, and the process for submitting pull requests to us.
 - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
 
+- [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) - A link to Andrew Etter's book *Modern Technical Writing*.
+
 See also the list of
 [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
 who participated in the README template project.
 
 ## FAQs
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+Why is Markdown better than a word processor?
+  - As suggested in Andrew Etter's book, Markdown is a very simple and light weight. Markdown files can be read on any platform by any basic text editor. The Markdown file format is openly available for anyone to use and is widely supported. A raw Markdown file is also very easy to read, as the formatting is clean and minimal.
+
+Why is my resume not showing up?
+  - Ensure to process your Markdown file will Jekyll before committing your changes to GitHub.  This can be done by opening a command prompt window and navigating to the root of your GitHub project and running the following command.
+
+
+    bundle exec
 
 
 ## License
