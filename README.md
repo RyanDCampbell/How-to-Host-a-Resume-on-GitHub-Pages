@@ -32,7 +32,7 @@ Requirements for this tutorial is a working knowledge of Markdown. Additionally,
 There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, Atom, GitHub Desktop, RubyInstaller and Jekyll. .Ruby is required by Jekyll as a Prerequisite.. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.
 
 
-#### 1) Installing Atom
+### 1) Installing Atom
 
  Atom is the Markdown editor we will be using for this guide. GitHub Desktop will be used to push the changes we make to our static site
 
@@ -45,16 +45,11 @@ There are a few programs that you will need to have installed before we can host
 
   4. **TIP** Enable the "Markdown Preview" feature as shown below. This feature allows you to see a live preview of how the Markdown will look once it has been processed. I found this feature way harder to find then it should be.
 
-<<<<<<< HEAD
-=======
+
   ![Markdown Preview](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/735c5dcac4fd672644e6b0302a16753338bea19c/images/MenuGif.gif)
->>>>>>> c1f245fd20628b0215e6cc2ff0cb2d06020a4630
-
-  ![image](https://gyazo.com/e8d92b3ba3023758769e873ef1a67f39)
 
 
-
-#### 2) Installing GitHub Desktop
+### 2) Installing GitHub Desktop
 
 GitHub Desktop is the software that we will be using to update our static site with the changes that have been made to the Markdown resume.  GitHub gives us some very useful tools as described in *Modern Technical Writing*. Two advantages of using GitHub is version control and community contributions.
 
@@ -70,7 +65,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
 
 
-#### 3) Installing Ruby
+### 3) Installing Ruby
 
   1. Click the following link to download and install [Ruby+Devkit](https://rubyinstaller.org/downloads/).
 
@@ -99,7 +94,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
 
 
-#### 4) Installing Jekyll
+### 4) Installing Jekyll
 
   1. Open a new command prompt window.
 
