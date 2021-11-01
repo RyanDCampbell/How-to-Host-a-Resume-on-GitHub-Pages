@@ -1,4 +1,4 @@
-# How to host a Resume on GitHub Pages
+# How to Host a Resume on GitHub Pages
 
 ## Purpose
 
@@ -109,7 +109,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
 
 
-### Preparing the Repository
+## Preparing the Repository
 
   1. Open a new command prompt window.
 
@@ -135,7 +135,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
 
 
-### Building and Uploading the Site
+## Building and Uploading the Site
 
   1. Copy your Markdown formatted resume to the following location.
 
@@ -154,7 +154,7 @@ GitHub Desktop is the software that we will be using to update our static site w
 
   5. Open GitHub Desktop, and commit the changes to GitHub as shown below.  A summary of changes is required to submit the changes.
 
-  ![GitHub Desktop Commit](images/Commit.png)
+  ![GitHub Desktop Commit](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/a5b3fda65d30497f461257592cba715540d581bc/images/Commit.PNG)
 
 
 
@@ -166,11 +166,6 @@ Once the above steps are completed, your site will be ready for viewing.
 1. Open any web browser of your choosing.
 
 2. Navigate to username.github.io to view your site.
-
-
-
-
-
 
 
 ## More Resources:
