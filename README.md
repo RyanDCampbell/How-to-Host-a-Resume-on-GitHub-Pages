@@ -2,7 +2,8 @@
 
 ## Purpose
 
-These instructions describe the steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book _Modern Technical Writing_.
+These instructions describe the steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book _Modern Technical Writing_. A link to Andrew Etter's book can be found in the "More Resources" section of this README.
+
 
 ## Prerequisites
 
@@ -12,43 +13,104 @@ Requirements for this tutorial is a working knowledge of Markdown. Additionally,
 
 ## Instructions
 
+
+### Creating a GitHub Pages account
+
+
+  1. Click the following link to create a [GitHub](https://github.com/signup?user_email=&source=form-home-signup) account.
+
+  2. Choose a GitHub username that reflects your preferred name. This is because which ever user name you choose will be apart of your site address.
+
+  2. Sign into your GitHub account and select the green (create a) *NEW* (repository) button as shown below.
+
+  ![Create a new repository](images/CreateRepo.png)
+
+  3. **WARNING:** When naming your new repository, make sure it is named *username*.github.io, where *username* is the GitHub account username you selected in step 2.
+
 ###  Installing Software
 
-There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, RubyInstaller, Atom, and Jekyll.  Ruby is required by Jekyll as a Prerequisite.  Atom is the Markdown editor we will be using for this guide. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.
-
-  1. Download and install [Ruby+Devkit](https://rubyinstaller.org/). The default installation settings will install everything you need, except the last step of the installation run the following command:
+There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, Atom, GitHub Desktop, RubyInstaller and Jekyll. .Ruby is required by Jekyll as a Prerequisite.. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.
 
 
-    ridk install
+#### 1) Installing Atom
+
+ Atom is the Markdown editor we will be using for this guide. GitHub Desktop will be used to push the changes we make to our static site
 
 
-  2. Download and install [Atom](https://atom.io/). The default installation settings will suffice.
+  1. Click the following link to download and install [Atom](https://atom.io/).
 
-  3. To install Jekyll, open a command prompt window and run the following command:
+  2. Run the Atom installer, and complete the installation with the default installation settings.
+
+
+
+#### 2) Installing GitHub Desktop
+
+GitHub Desktop is the software that we will be using to update our static site with the changes that have been made to the Markdown resume.  GitHub gives us some very useful tools as described in *Modern Technical Writing*. Two advantages of using GitHub is version control and community contributions.
+
+ Version control gives us a way of tracking the changes that have been made to the project, and a way of restoring our project to a previous version.
+
+ Community contributions embrace the benefits of open source. By publicly hosting projects, other GitHub community members can contribute to your project. They can suggest changes and fixes, helping you to add an extra layer of polish to your projects.
+
+ 1. Click the following link to download and install [GitHub Desktop](https://desktop.github.com/).
+
+ 2. Run the GitHub Desktop installer using the default installation settings.
+
+ 3. Enter your GitHub account user name and password to log into GitHub Desktop.
+
+
+
+#### 3) Installing Ruby
+
+  1. Click the following link to download and install [Ruby+Devkit](https://rubyinstaller.org/downloads/).
+
+  2. Select the Ruby+Devkit 2.7.X (64) to download the installer, as it is the recommended version to use.
+
+  3. Run the Ruby+Devkit installer when the download completes.
+
+  4. Proceed through the installation process, using the default installation options.
+
+  5. When the installation has completed, ensure that the checkbox is selected as in the following image.  
+
+  ![Successful Ruby Install](images/RubySetup.png)
+
+  6. Select finish.
+
+  7. Verify that Ruby was successfully installed by opening a command prompt window, and entering the following command:
+
+
+    ruby -v
+
+
+  If Ruby was successfully installed, you will get the following feedback from command prompt:
+
+  ![Verify Ruby Installed](images/VerifyRuby.png)
+
+
+
+
+#### 4) Installing Jekyll
+
+  1. Open a new command prompt window.
+
+  2. Enter and run the following command:
 
 
     gem install jekyll bundler  
 
 
-A step by step series of examples that tell you how to get a development
-environment running
 
-Say what the step will be
+If Jekyll was successfully installed, you will get the following output to command prompt:
 
-    Give the example
+  ![Jekyll Installed](images/JekyllInstalled.png)
 
-And repeat
 
-    until finished
 
-End with an example of getting some data out of the system or using it
-for a little demo
 
 ####  2) More Resources:
 
 
 
-
+- [GitHub Pages](https://pages.github.com/) - A link to GitHub Pages has the steps needed to create an account
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/) -  A very good guide to get you started in Markdown, or simply brush-up your skills.
 - [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) - A link to Andrew Etter's book *Modern Technical Writing*.
 - [Jekyll Quickstart Guide] (https://jekyllrb.com/docs/) - A link to Jekyll's guide on how to get their software up and running.

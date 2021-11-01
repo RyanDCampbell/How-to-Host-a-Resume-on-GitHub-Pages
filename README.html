@@ -23,32 +23,79 @@
 </head>
 <body><div id="readme" class="container"><article class="markdown-body entry-content"><h1 id="how-to-host-a-resume-on-github-pages">How to host a Resume on GitHub Pages</h1>
 <h2 id="purpose">Purpose</h2>
-<p>These instructions describe the steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book <em>Modern Technical Writing</em>.</p>
+<p>These instructions describe the steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book <em>Modern Technical Writing</em>. A link to Andrew Etter's book can be found in the "More Resources" section of this README.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <p>Requirements for this tutorial is a working knowledge of Markdown. Additionally, a resume formatted in Markdown is also required to complete this guide. If you are inexperienced with Markdown, or would simply like to brush-up your skills, you may find the included Markdown tutorial helpful.</p>
 <ul>
 <li><a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide</a></li>
 </ul>
 <h2 id="instructions">Instructions</h2>
-<h3 id="installing-software">Installing Software</h3>
-<p>There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, RubyInstaller, Atom, and Jekyll.  Ruby is required by Jekyll as a Prerequisite.  Atom is the Markdown editor we will be using for this guide. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.</p>
+<h3 id="creating-a-github-pages-account">Creating a GitHub Pages account</h3>
 <ol>
-<li>Download and install <a href="https://rubyinstaller.org/">Ruby+Devkit</a>. The default installation settings will install everything you need, except the last step of the installation run the following command:</li>
-</ol>
-<pre><code>ridk install</code></pre><ol start="2">
-<li><p>Download and install <a href="https://atom.io/">Atom</a>. The default installation settings will suffice.</p>
+<li><p>Click the following link to create a <a href="https://github.com/signup?user_email=&amp;source=form-home-signup">GitHub</a> account.</p>
 </li>
-<li><p>To install Jekyll, open a command prompt window and run the following command:</p>
+<li><p>Choose a GitHub username that reflects your preferred name. This is because which ever user name you choose will be apart of your site address.</p>
+</li>
+<li><p>Sign into your GitHub account and select the green (create a) <em>NEW</em> (repository) button as shown below.</p>
+<p><img src="images/CreateRepo.png" alt="Create a new repository"></p>
+</li>
+<li><p><strong>WARNING:</strong> When naming your new repository, make sure it is named <em>username</em>.github.io, where <em>username</em> is the GitHub account username you selected in step 2.</p>
 </li>
 </ol>
-<pre><code>gem install jekyll bundler  </code></pre><p>A step by step series of examples that tell you how to get a development
-environment running</p>
-<p>Say what the step will be</p>
-<pre><code>Give the example</code></pre><p>And repeat</p>
-<pre><code>until finished</code></pre><p>End with an example of getting some data out of the system or using it
-for a little demo</p>
+<h3 id="installing-software">Installing Software</h3>
+<p>There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, Atom, GitHub Desktop, RubyInstaller and Jekyll. .Ruby is required by Jekyll as a Prerequisite.. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.</p>
+<h4 id="1-installing-atom">1) Installing Atom</h4>
+<p> Atom is the Markdown editor we will be using for this guide. GitHub Desktop will be used to push the changes we make to our static site</p>
+<ol>
+<li><p>Click the following link to download and install <a href="https://atom.io/">Atom</a>.</p>
+</li>
+<li><p>Run the Atom installer, and complete the installation with the default installation settings.</p>
+</li>
+</ol>
+<h4 id="2-installing-github-desktop">2) Installing GitHub Desktop</h4>
+<p>GitHub Desktop is the software that we will be using to update our static site with the changes that have been made to the Markdown resume.  GitHub gives us some very useful tools as described in <em>Modern Technical Writing</em>. Two advantages of using GitHub is version control and community contributions.</p>
+<p> Version control gives us a way of tracking the changes that have been made to the project, and a way of restoring our project to a previous version.</p>
+<p> Community contributions embrace the benefits of open source. By publicly hosting projects, other GitHub community members can contribute to your project. They can suggest changes and fixes, helping you to add an extra layer of polish to your projects.</p>
+<ol>
+<li><p>Click the following link to download and install <a href="https://desktop.github.com/">GitHub Desktop</a>.</p>
+</li>
+<li><p>Run the GitHub Desktop installer using the default installation settings.</p>
+</li>
+<li><p>Enter your GitHub account user name and password to log into GitHub Desktop.</p>
+</li>
+</ol>
+<h4 id="3-installing-ruby">3) Installing Ruby</h4>
+<ol>
+<li><p>Click the following link to download and install <a href="https://rubyinstaller.org/downloads/">Ruby+Devkit</a>.</p>
+</li>
+<li><p>Select the Ruby+Devkit 2.7.X (64) to download the installer, as it is the recommended version to use.</p>
+</li>
+<li><p>Run the Ruby+Devkit installer when the download completes.</p>
+</li>
+<li><p>Proceed through the installation process, using the default installation options.</p>
+</li>
+<li><p>When the installation has completed, ensure that the checkbox is selected as in the following image.  </p>
+<p><img src="images/RubySetup.png" alt="Successful Ruby Install"></p>
+</li>
+<li><p>Select finish.</p>
+</li>
+<li><p>Verify that Ruby was successfully installed by opening a command prompt window, and entering the following command:</p>
+</li>
+</ol>
+<pre><code>ruby -v</code></pre><p>  If Ruby was successfully installed, you will get the following feedback from command prompt:</p>
+<p>  <img src="images/VerifyRuby.png" alt="Verify Ruby Installed"></p>
+<h4 id="4-installing-jekyll">4) Installing Jekyll</h4>
+<ol>
+<li><p>Open a new command prompt window.</p>
+</li>
+<li><p>Enter and run the following command:</p>
+</li>
+</ol>
+<pre><code>gem install jekyll bundler  </code></pre><p>If Jekyll was successfully installed, you will get the following output to command prompt:</p>
+<p>  <img src="images/JekyllInstalled.png" alt="Jekyll Installed"></p>
 <h4 id="2-more-resources-">2) More Resources:</h4>
 <ul>
+<li><a href="https://pages.github.com/">GitHub Pages</a> - A link to GitHub Pages has the steps needed to create an account</li>
 <li><a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide</a> -  A very good guide to get you started in Markdown, or simply brush-up your skills.</li>
 <li><a href="https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS">Modern Technical Writing</a> - A link to Andrew Etter's book <em>Modern Technical Writing</em>.</li>
 <li>[Jekyll Quickstart Guide] (<a href="https://jekyllrb.com/docs/">https://jekyllrb.com/docs/</a>) - A link to Jekyll's guide on how to get their software up and running.</li>
