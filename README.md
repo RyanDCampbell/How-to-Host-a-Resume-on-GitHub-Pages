@@ -42,7 +42,7 @@ There are a few programs that you will need to have installed before we can host
   2. Run the Atom installer, and complete the installation with the default installation settings.
 
 
-  ![image](https://gyazo.com/e8d92b3ba3023758769e873ef1a67f39)
+  ![Markdown Preview](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/735c5dcac4fd672644e6b0302a16753338bea19c/images/MenuGif.gif)
 
 
 
@@ -166,6 +166,9 @@ Once the above steps are completed, your site will be ready for viewing.
 1. Open any web browser of your choosing.
 
 2. Navigate to username.github.io to view your site.
+
+
+![Resume Demo](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/c80dd28a64573fb04655c7286ab5ac4155325d5a/images/ResumeGif.gif)
 
 
 ## More Resources:
