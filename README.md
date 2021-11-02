@@ -2,8 +2,7 @@
 
 ## Purpose
 
-These instructions describe the steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book _Modern Technical Writing_. A link to Andrew Etter's book can be found in the "More Resources" section of this README.
-
+The purpose of this README is to explain how to host a resume and README on GitHub Pages.
 
 ## Prerequisites
 
@@ -12,6 +11,9 @@ The requirements to complete this tutorial are a working knowledge of Markdown, 
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 
 ## Instructions
+
+These instructions describe the practical steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book _Modern Technical Writing_. A link to Andrew Etter's book can be found in the "More Resources" section of this README.
+
 
 
 ### Creating a GitHub Pages account
@@ -175,7 +177,7 @@ Once the above steps are completed, your site will be ready for viewing.
 
 ![Resume Demo](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/c80dd28a64573fb04655c7286ab5ac4155325d5a/images/ResumeGif.gif)
 
-It should be noted that
+
 
 ## More Resources:
 
