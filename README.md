@@ -7,7 +7,7 @@ These instructions describe the steps to follow in order to host a resume and RE
 
 ## Prerequisites
 
-Requirements for this tutorial is a working knowledge of Markdown. Additionally, a resume formatted in Markdown is also required to complete this guide. If you are inexperienced with Markdown, or would simply like to brush-up your skills, you may find the included Markdown tutorial helpful.
+The requirements to complete this tutorial are a working knowledge of Markdown, along with an updated resume formatted in Markdown. If you are inexperienced with Markdown, or would simply like to brush-up your skills, you may find the included Markdown tutorial helpful.
 
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 
@@ -172,6 +172,7 @@ Once the above steps are completed, your site will be ready for viewing.
 
 ![Resume Demo](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/c80dd28a64573fb04655c7286ab5ac4155325d5a/images/ResumeGif.gif)
 
+It should be noted that
 
 ## More Resources:
 
