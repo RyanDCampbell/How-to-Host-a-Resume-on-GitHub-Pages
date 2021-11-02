@@ -32,7 +32,7 @@ A GitHub account is required to host a static site with GitHub Pages.
 
 ###  Installing Software
 
-There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, Atom, GitHub Desktop, RubyInstaller and Jekyll. .Ruby is required by Jekyll as a Prerequisite.. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.
+There are a few programs that you will need to have installed before we can host your resume on GitHub Pages. Namely, Atom, GitHub Desktop, RubyInstaller and Jekyll. Ruby is required by Jekyll as a Prerequisite. Lastly, Jekyll turns our Markdown formatted document and converts in into a static website that we will host on GitHub Pages.
 
 
 ### 1) Installing Atom
