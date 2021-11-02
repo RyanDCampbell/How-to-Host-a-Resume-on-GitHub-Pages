@@ -14,7 +14,7 @@ The requirements to complete this tutorial are a working knowledge of Markdown, 
 
 These instructions describe the practical steps to follow in order to host a resume and README on GitHub Pages. This will be accomplished by using a variety of tools and principles explored in Andrew Etter's book _Modern Technical Writing_. A link to Andrew Etter's book can be found in the "More Resources" section of this README.
 
-
+Etter's book explains the benefits of hosting your resume as a static site.  Traditional resume files given to employees suffer from becoming outdated rather quickly. Resumes hosted as a static site resolve this issue, because you can update the site as many times as you like. This allows you to make sure that potential employers always have your most up to date skillset on hand.
 
 ### Creating a GitHub Pages account
 
