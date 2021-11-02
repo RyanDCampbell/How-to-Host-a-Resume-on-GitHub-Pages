@@ -185,7 +185,7 @@ Once the above steps are completed, your site will be ready for viewing.
 - [GitHub Pages](https://pages.github.com/) - A link to GitHub Pages has the steps needed to create an account
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/) -  A very good guide to get you started in Markdown, or simply brush-up your skills.
 - [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) - A link to Andrew Etter's book *Modern Technical Writing*.
-- [Jekyll Quickstart Guide] (https://jekyllrb.com/docs/) - A link to Jekyll's guide on how to get their software up and running.
+- [Jekyll Quickstart Guide](https://jekyllrb.com/docs/) - A link to Jekyll's guide on how to get their software up and running.
 
 
 ## Built With
