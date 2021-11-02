@@ -104,9 +104,10 @@ GitHub Desktop is the software that we will be using to update our static site w
     gem install jekyll bundler  
 
 
-    If Jekyll was successfully installed, you will get the following output to command prompt:
 
-      ![Jekyll Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/JekyllInstalled.PNG)
+If Jekyll was successfully installed, you will get the following output to command prompt:
+
+![Jekyll Installed](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/366344cdce03e774a4f1f546f04dd6760714d090/images/JekyllInstalled.PNG)
 
 
 
