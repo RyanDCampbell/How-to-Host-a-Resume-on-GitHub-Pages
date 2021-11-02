@@ -43,7 +43,9 @@ There are a few programs that you will need to have installed before we can host
 
   3. Open Atom when it has finished installing.
 
-  4. **TIP** Enable the "Markdown Preview" feature as shown below. This feature allows you to see a live preview of how the Markdown will look once it has been processed. I found this feature way harder to find then it should be.
+  4. Create and save your Markdown files as you would with any other application. File -> New File, and File -> Save.
+
+  5. **TIP** Enable the "Markdown Preview" feature as shown below. While you're working on your Markdown file, this feature displays a live preview of how the Markdown will look once it has been processed. I found this feature way harder to find then it should be.
 
 
   ![Markdown Preview](https://github.com/RyanDCampbell/RyanDCampbell.github.io/blob/735c5dcac4fd672644e6b0302a16753338bea19c/images/MenuGif.gif)
